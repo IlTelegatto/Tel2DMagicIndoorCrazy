@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cambia Sfondo con Immagini</title>
+    <title>Cambia Sfondo con Immagini Locali</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +11,8 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+            margin: 0;
+            height: 100vh;
         }
         #changeBackgroundButton {
             padding: 10px 20px;
@@ -32,10 +34,11 @@
 
     <script>
         document.getElementById('changeBackgroundButton').addEventListener('click', function() {
-            // Lista di URL di immagini di sfondo
+            // Lista di nomi di file di immagini di sfondo locali
             var images = [
-                'ciao.png',
-                'https://www.w3schools.com/howto/img_snow.jpg',
+                'ciao.png', // Assicurati di avere questi file nella stessa directory del file HTML
+                'immagine2.jpg',
+            ];
             // Seleziona un'immagine casuale dalla lista
             var randomImage = images[Math.floor(Math.random() * images.length)];
             // Cambia l'immagine di sfondo della pagina
