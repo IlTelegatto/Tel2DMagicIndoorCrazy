@@ -2,7 +2,7 @@
 const images = [
     'ciao.png',
     '/image/1.png',
-    'immagine3.jpg',
+    '/immage2.png',
     'immagine4.jpg'
 ];
 
