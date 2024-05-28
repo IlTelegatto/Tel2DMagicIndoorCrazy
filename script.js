@@ -1,8 +1,8 @@
 // Array con i percorsi delle immagini (assicurati che le immagini siano nella stessa cartella del file HTML)
 const images = [
     'ciao.png',
-    '/image/1.png',
-    '/image/2.png',
+    'image/1.png',
+    'image/2.png',
     'immagine4.jpg'
 ];
 
